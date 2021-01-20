@@ -5,7 +5,8 @@
 <h1>Teste Api</h1>
 
 <p id="TESTE"></p>
-
+<p id="demo"></p>
+    
 <script>
 function tempo(request, response) {
     const dynamicDate = new Date()
@@ -15,7 +16,7 @@ function tempo(request, response) {
     })
 }
 
-export default tempo
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script> 
 
 </body>
