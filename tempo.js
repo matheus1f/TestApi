@@ -1,5 +1,3 @@
-<script>
-
 function tempo(request, response) {
     const dynamicDate = new Date()
 
@@ -9,4 +7,4 @@ function tempo(request, response) {
 }
 
 export default tempo
-</script>
+
