@@ -1,1 +1,22 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Teste Api</h1>
+
+<p id="TESTE"></p>
+
+<script>
+function tempo(request, response) {
+    const dynamicDate = new Date()
+
+    response.json({
+        date: dynamicDate.toGMTString()
+    })
+}
+
+export default tempo
+</script> 
+
+</body>
+</html>
